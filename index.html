@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Widget</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="chat-icon" id="chat-icon">💬</div>
+    <div class="chat-widget" id="chat-widget">
+      <div class="chat-header">
+        <div class="chat-header-left"><span>How can we help? </span></div>
+        <div class="chat-header-right">
+          <span><i class="bi bi-crosshair2" id="bi-crosshair"></i></span>
+        </div>
+      </div>
+      <div class="chat_body">
+        <div class="upper_body" id="upper_body_containt_main">
+          <div class="upper_body_containt" id="upper_body_containt_a">
+            When will I receive my order?
+          </div>
+
+          <div class="upper_body_containt" id="upper_body_containt_b">
+            Can I make changes to my order?
+          </div>
+          <div class="upper_body_containt" id="upper_body_containt_c">
+            What is Paravel's return/exchange policy?
+          </div>
+          <div class="upper_body_containt" id="upper_body_containt_d">
+            I've returned my order, when will I get my refund?
+          </div>
+          <div class="upper_body_containt" id="upper_body_containt_e">
+            Can I have my pieces personalized?
+          </div>
+          <div class="upper_body_containt" id="upper_body_containt_f">
+            What is covered in the Aviator's warranty?
+          </div>
+        </div>
+        <div class="middle_body" id="middle_body">
+          <div class="middle_body_containt" id="upper_body_containt_g">
+            <i class="bi bi-box"></i> &nbsp; Paravel Customer Care Team
+          </div>
+        </div>
+        <div class="lower_body" id="lower_body">
+          <div class="lower_body_containt" id="upper_body_containt_h">
+            <i class="bi bi-apple"></i> &nbsp;Paravel Customer Care Team&nbsp;
+            <i class="bi bi-send"></i>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_aa"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-bullseye" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-alarm-fill" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-airplane-fill" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-backpack-fill" id="bi_subcontainer_a"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_bb"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-cash" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-coin" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-currency-rupee" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-wallet-fill" id="bi_subcontainer_b"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_cc"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-currency-exchange" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-pentagon-fill" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-asterisk" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-exposure" id="bi_subcontainer_b"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_dd"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-arrow-return-right" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-arrow-return-left" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-amazon" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-android2" id="bi_subcontainer_b"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_ee"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-tags-fill" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-currency-bitcoin" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-tags" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-wallet2" id="bi_subcontainer_b"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_ff"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-badge-ad-fill" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-amd" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-0-square-fill" id="bi_subcontainer_b"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-alexa" id="bi_subcontainer_b"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_gg"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-microsoft-teams" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-steam" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-cup-hot-fill" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-people-fill" id="bi_subcontainer_a"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="upper_body_containt_subcontainer"
+          id="upper_body_containt_hh"
+        >
+          <div class="upper_body_containt_subcontainer_main">
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-person-check-fill" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-person-fill-gear" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-person-raised-hand" id="bi_subcontainer_a"></i>
+            </div>
+            <div class="upper_body_containt_subcontainer_a">
+              <i class="bi bi-person-walking" id="bi_subcontainer_a"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="close-icon" class="close-icon">&times;</div>
+    <script src="script.js"></script>
+  </body>
+</html>
